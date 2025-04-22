@@ -1,5 +1,5 @@
 
-baseURL = "http://example.org/"
+baseURL = "https://harlogs.github.io/gridmov/"
 languageCode = "en-us"
 title = "Movies Manias"
 theme = "custom"
