@@ -3,7 +3,7 @@
 
   <!-- Poster on the left -->
   <div class="w-full lg:w-1/3">
-    <img src="{{ .Params.image }}" alt="{{ .Title }}" class="w-full h-auto rounded shadow" />
+    <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="w-full h-auto rounded shadow" />
   </div>
 
   <!-- Info on the right -->
