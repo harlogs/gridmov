@@ -1,7 +1,7 @@
 
 ---
 title: "Movie 1"
-image: "/images/mov1.jpg"
+image: "images/mov1.jpg"
 date: 2025-01-01
 year: 2019
 categories: ["Action", "Superhero"]
