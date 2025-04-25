@@ -4,3 +4,7 @@ languageCode = "en-us"
 title = "Movies Manias"
 theme = "custom"
 paginate = 24
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
