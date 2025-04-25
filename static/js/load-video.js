@@ -48,3 +48,4 @@ async function showVideo(containerId, apiUrl, videoId) {
     <video src="${videoUrl}" controls autoplay class="w-full max-w-3xl mx-auto rounded-lg shadow-xl"></video>
   `;
 }
+window.showVideo = showVideo;
