@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Action on Movies Manias</title>
-    <link>https://harlogs.github.io/gridmov/categories/action/</link>
+    <link>http://localhost:1313/gridmov/categories/action/</link>
     <description>Recent content in Action on Movies Manias</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://harlogs.github.io/gridmov/categories/action/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/gridmov/categories/action/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Movie 1</title>
-      <link>https://harlogs.github.io/gridmov/movie1/</link>
+      <link>http://localhost:1313/gridmov/movie1/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://harlogs.github.io/gridmov/movie1/</guid>
-      <description>&lt;p&gt;This is the description of the movie.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/gridmov/movie1/</guid>
+      <description>&lt;div id=&#34;video1&#34; class=&#34;text-center my-6&#34;&gt;&#xA;  &lt;button &#xA;    onclick=&#34;showVideo(&#39;video1&#39;, &#39;https://streamlink-production-f6c9.up.railway.app/player?url=https://streamtape.com/v/KPrblX7al1s0XVQ/Chhaava_2025.mkv.mp4&#39;,111)&#34; &#xA;    class=&#34;bg-red-600 text-white text-xl px-8 py-4 rounded-lg hover:bg-red-700 transition duration-300 shadow-lg&#34;&gt;&#xA;    🎬 Watch Now&#xA;  &lt;/button&gt;&#xA;&lt;/div&gt;&#xA;&lt;script src=&#34;http://localhost:1313/gridmov/js/load-video.js&#34;&gt;&lt;/script&gt;</description>
     </item>
   </channel>
 </rss>
