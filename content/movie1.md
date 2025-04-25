@@ -14,4 +14,4 @@ categories: ["Action", "Superhero"]
   </button>
 </div>
 
-<script src="/gridmov/js/load-video.js"></script>
+<script type="module" src="/gridmov/js/load-video.js"></script>
