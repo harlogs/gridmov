@@ -1,4 +1,4 @@
-import { updateVideoCacheById } from './gity.js';  // Import the update function from gity.js
+//import { updateVideoCacheById } from './gity.js';  // Import the update function from gity.js
 
 async function showVideo(containerId, apiUrl, videoId) {
   const container = document.getElementById(containerId);
@@ -12,6 +12,7 @@ async function showVideo(containerId, apiUrl, videoId) {
     // Load and parse the cache JSON
     const cacheResponse = await fetch('/gridmov/data/video-cache.json');
     const cacheData = await cacheResponse.json();
+    console.log(cacheData);
 
     // Find the entry with the matching ID
     const entry = cacheData.find(item => item.id === videoId);
@@ -34,8 +35,25 @@ async function showVideo(containerId, apiUrl, videoId) {
 
       console.log('💾 New video URL loaded:', videoUrl);
 
-      // Call updateVideoCacheById to update GitHub with the new video URL and expiry time
-      await updateVideoCacheById(videoId, videoUrl, expires);
+      const apiBaseUrl = window.location.hostname.includes('localhost')
+        ? 'http://localhost:3000'
+        : 'https://streamlink-production-f6c9.up.railway.app'; // your Railway URL
+
+      // Call the backend API to update the cache on GitHub
+      const updateResponse = await fetch(`${apiBaseUrl}/update-video`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          id: videoId,
+          newUrl: videoUrl,
+          newExpiry: expires,
+        }),
+      });      
+
+      const updateData = await updateResponse.json();
+      console.log(updateData.message); // You can handle success or errors here
     }
   } catch (err) {
     container.innerHTML = '<div class="text-red-500 text-lg">⚠️ Failed to load video.</div>';
@@ -48,4 +66,4 @@ async function showVideo(containerId, apiUrl, videoId) {
     <video src="${videoUrl}" controls autoplay class="w-full max-w-3xl mx-auto rounded-lg shadow-xl"></video>
   `;
 }
-window.showVideo = showVideo;
+//window.showVideo = showVideo;
