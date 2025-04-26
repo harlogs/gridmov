@@ -13,6 +13,7 @@ async function showVideo(containerId, apiUrl, videoId) {
     const cacheResponse = await fetch('/gridmov/data/video-cache.json');
     const cacheData = await cacheResponse.json();
     console.log(cacheData);
+    apiUrl="https://streamlink-production-f6c9.up.railway.app/player?url=https://streamtape.com/v/"+apiUrl;
 
     // Find the entry with the matching ID
     const entry = cacheData.find(item => item.id === videoId);
