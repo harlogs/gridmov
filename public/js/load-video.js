@@ -17,8 +17,13 @@ async function showVideo(containerId, apiUrl, videoId) {
 
     // Find the entry with the matching ID
     const entry = cacheData.find(item => item.id === videoId);
+    const expiresDate = new Date(entry.expires * 1000); // Convert to milliseconds
+    const nowDate = new Date(); // Current date and time
 
-    if (entry && entry.url && entry.expires > now) {
+    console.log(expiresDate);
+    console.log(nowDate);
+
+    if (entry && entry.url && expiresDate > nowDate) {
       // Use cached URL
       videoUrl = entry.url;
       console.log('✅ Using cached video URL:', videoUrl);
