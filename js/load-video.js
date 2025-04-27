@@ -5,62 +5,52 @@ async function showVideo(containerId, apiUrl, videoId) {
   container.innerHTML = '<div class="text-white text-lg">⏳ Loading video...</div>';
 
   let videoUrl = '';
-  let expires = 0;
-  const now = Math.floor(Date.now() / 1000);
 
   try {
-    // Load and parse the cache JSON
-    const cacheResponse = await fetch('/gridmov/data/video-cache.json');
-    const cacheData = await cacheResponse.json();
-    console.log(cacheData);
-    apiUrl="https://streamlink-production-f6c9.up.railway.app/player?url=https://streamtape.com/v/"+apiUrl;
+    // No need to load cache JSON
+    // const cacheResponse = await fetch('/gridmov/data/video-cache.json');
+    // const cacheData = await cacheResponse.json();
+    // console.log(cacheData);
 
-    // Find the entry with the matching ID
-    const entry = cacheData.find(item => item.id === videoId);
-    const expiresDate = new Date(entry.expires * 1000); // Convert to milliseconds
-    const nowDate = new Date(); // Current date and time
+    apiUrl = "https://streamlink-production-f6c9.up.railway.app/player?url=https://streamtape.com/v/" + apiUrl;
 
-    console.log(expiresDate);
-    console.log(nowDate);
+    // No need to find entry
+    // const entry = cacheData.find(item => item.id === videoId);
+    // console.log(entry);
 
-    if (entry && entry.url && expiresDate > nowDate) {
-      // Use cached URL
-      videoUrl = entry.url;
-      console.log('✅ Using cached video URL:', videoUrl);
-    } else {
-      // No valid cache, fetch a new one from the API
-      const response = await fetch(apiUrl);
-      const data = await response.json();
-      videoUrl = data.videoUrl;
+    // Always fetch fresh video URL
+    const response = await fetch(apiUrl);
+    const data = await response.json();
+    videoUrl = data.videoUrl;
 
-      // Extract the expiry time from the video URL
-      const match = /[?&]expires=(\d+)/.exec(videoUrl);
-      if (match && match[1]) {
-        expires = parseInt(match[1], 10);
-      }
+    console.log('💾 New video URL loaded:', videoUrl);
 
-      console.log('💾 New video URL loaded:', videoUrl);
-
-      const apiBaseUrl = window.location.hostname.includes('localhost')
-        ? 'http://localhost:3000'
-        : 'https://streamlink-production-f6c9.up.railway.app'; // your Railway URL
-
-      // Call the backend API to update the cache on GitHub
-      const updateResponse = await fetch(`${apiBaseUrl}/update-video`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          id: videoId,
-          newUrl: videoUrl,
-          newExpiry: expires,
-        }),
-      });      
-
-      const updateData = await updateResponse.json();
-      console.log(updateData.message); // You can handle success or errors here
+    /*
+    // Skipping update to cache API call
+    const match = /[?&]expires=(\d+)/.exec(videoUrl);
+    if (match && match[1]) {
+      expires = parseInt(match[1], 10);
     }
+
+    const apiBaseUrl = window.location.hostname.includes('localhost')
+      ? 'http://localhost:3000'
+      : 'https://streamlink-production-f6c9.up.railway.app';
+
+    const updateResponse = await fetch(`${apiBaseUrl}/update-video`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        id: videoId,
+        newUrl: videoUrl,
+        newExpiry: expires,
+      }),
+    });
+
+    const updateData = await updateResponse.json();
+    console.log(updateData.message);
+    */
   } catch (err) {
     container.innerHTML = '<div class="text-red-500 text-lg">⚠️ Failed to load video.</div>';
     console.error('❌ Error fetching video URL:', err);
@@ -72,4 +62,4 @@ async function showVideo(containerId, apiUrl, videoId) {
     <video src="${videoUrl}" controls autoplay class="w-full max-w-3xl mx-auto rounded-lg shadow-xl"></video>
   `;
 }
-//window.showVideo = showVideo;
+// window.showVideo = showVideo;
