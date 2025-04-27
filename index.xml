@@ -2,185 +2,185 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Movies Manias</title>
-    <link>http://localhost:1313/gridmov/</link>
+    <link>https://harlogs.github.io/gridmov/</link>
     <description>Recent content on Movies Manias</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/gridmov/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://harlogs.github.io/gridmov/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Movie 1</title>
-      <link>http://localhost:1313/gridmov/movie1/</link>
+      <link>https://harlogs.github.io/gridmov/movie1/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie1/</guid>
-      <description>&lt;div id=&#34;video1&#34; class=&#34;text-center my-6&#34;&gt;&#xA;   &lt;button &#xA;    onclick=&#34;showVideo(&#39;video1&#39;, &#39;KPrblX7al1s0XVQ/Chhaava_2025.mkv.mp4&#39;, 1111);&#34; &#xA;    class=&#34;bg-red-600 text-white text-xl px-8 py-4 rounded-lg hover:bg-red-700 transition duration-300 shadow-lg&#34;&gt;&#xA;    🎬 Watch Now&#xA;  &lt;/button&gt;&#xA;&lt;/div&gt;&#xA;&lt;script src=&#34;http://localhost:1313/gridmov/js/load-video.js&#34;&gt;&lt;/script&gt;</description>
+      <guid>https://harlogs.github.io/gridmov/movie1/</guid>
+      <description>&lt;div id=&#34;video1&#34; class=&#34;text-center my-6&#34;&gt;&#xA;   &lt;button &#xA;    onclick=&#34;showVideo(&#39;video1&#39;, &#39;KPrblX7al1s0XVQ/Chhaava_2025.mkv.mp4&#39;, 1111);&#34; &#xA;    class=&#34;bg-red-600 text-white text-xl px-8 py-4 rounded-lg hover:bg-red-700 transition duration-300 shadow-lg&#34;&gt;&#xA;    🎬 Watch Now&#xA;  &lt;/button&gt;&#xA;&lt;/div&gt;&#xA;&lt;script src=&#34;https://harlogs.github.io/gridmov/js/load-video.js&#34;&gt;&lt;/script&gt;</description>
     </item>
     <item>
       <title>Movie 10</title>
-      <link>http://localhost:1313/gridmov/movie10/</link>
+      <link>https://harlogs.github.io/gridmov/movie10/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie10/</guid>
+      <guid>https://harlogs.github.io/gridmov/movie10/</guid>
       <description>&lt;p&gt;Sample description for movie 10.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movie 11</title>
-      <link>http://localhost:1313/gridmov/movie11/</link>
+      <link>https://harlogs.github.io/gridmov/movie11/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie11/</guid>
+      <guid>https://harlogs.github.io/gridmov/movie11/</guid>
       <description>&lt;p&gt;Sample description for movie 11.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movie 12</title>
-      <link>http://localhost:1313/gridmov/movie12/</link>
+      <link>https://harlogs.github.io/gridmov/movie12/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie12/</guid>
+      <guid>https://harlogs.github.io/gridmov/movie12/</guid>
       <description>&lt;p&gt;Sample description for movie 12.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movie 13</title>
-      <link>http://localhost:1313/gridmov/movie13/</link>
+      <link>https://harlogs.github.io/gridmov/movie13/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie13/</guid>
+      <guid>https://harlogs.github.io/gridmov/movie13/</guid>
       <description>&lt;p&gt;Sample description for movie 13.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movie 14</title>
-      <link>http://localhost:1313/gridmov/movie14/</link>
+      <link>https://harlogs.github.io/gridmov/movie14/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie14/</guid>
+      <guid>https://harlogs.github.io/gridmov/movie14/</guid>
       <description>&lt;p&gt;Sample description for movie 14.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movie 15</title>
-      <link>http://localhost:1313/gridmov/movie15/</link>
+      <link>https://harlogs.github.io/gridmov/movie15/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie15/</guid>
+      <guid>https://harlogs.github.io/gridmov/movie15/</guid>
       <description>&lt;p&gt;Sample description for movie 15.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movie 16</title>
-      <link>http://localhost:1313/gridmov/movie16/</link>
+      <link>https://harlogs.github.io/gridmov/movie16/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie16/</guid>
+      <guid>https://harlogs.github.io/gridmov/movie16/</guid>
       <description>&lt;p&gt;Sample description for movie 16.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movie 17</title>
-      <link>http://localhost:1313/gridmov/movie17/</link>
+      <link>https://harlogs.github.io/gridmov/movie17/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie17/</guid>
+      <guid>https://harlogs.github.io/gridmov/movie17/</guid>
       <description>&lt;p&gt;Sample description for movie 17.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movie 18</title>
-      <link>http://localhost:1313/gridmov/movie18/</link>
+      <link>https://harlogs.github.io/gridmov/movie18/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie18/</guid>
+      <guid>https://harlogs.github.io/gridmov/movie18/</guid>
       <description>&lt;p&gt;Sample description for movie 18.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movie 19</title>
-      <link>http://localhost:1313/gridmov/movie19/</link>
+      <link>https://harlogs.github.io/gridmov/movie19/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie19/</guid>
+      <guid>https://harlogs.github.io/gridmov/movie19/</guid>
       <description>&lt;p&gt;Sample description for movie 19.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movie 2</title>
-      <link>http://localhost:1313/gridmov/movie2/</link>
+      <link>https://harlogs.github.io/gridmov/movie2/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie2/</guid>
+      <guid>https://harlogs.github.io/gridmov/movie2/</guid>
       <description>&lt;p&gt;Sample description for movie 2.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movie 20</title>
-      <link>http://localhost:1313/gridmov/movie20/</link>
+      <link>https://harlogs.github.io/gridmov/movie20/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie20/</guid>
+      <guid>https://harlogs.github.io/gridmov/movie20/</guid>
       <description>&lt;p&gt;Sample description for movie 20.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movie 21</title>
-      <link>http://localhost:1313/gridmov/movie21/</link>
+      <link>https://harlogs.github.io/gridmov/movie21/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie21/</guid>
+      <guid>https://harlogs.github.io/gridmov/movie21/</guid>
       <description>&lt;p&gt;Sample description for movie 21.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movie 22</title>
-      <link>http://localhost:1313/gridmov/movie22/</link>
+      <link>https://harlogs.github.io/gridmov/movie22/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie22/</guid>
+      <guid>https://harlogs.github.io/gridmov/movie22/</guid>
       <description>&lt;p&gt;Sample description for movie 22.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movie 23</title>
-      <link>http://localhost:1313/gridmov/movie23/</link>
+      <link>https://harlogs.github.io/gridmov/movie23/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie23/</guid>
+      <guid>https://harlogs.github.io/gridmov/movie23/</guid>
       <description>&lt;p&gt;Sample description for movie 23.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movie 24</title>
-      <link>http://localhost:1313/gridmov/movie24/</link>
+      <link>https://harlogs.github.io/gridmov/movie24/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie24/</guid>
+      <guid>https://harlogs.github.io/gridmov/movie24/</guid>
       <description>&lt;p&gt;Sample description for movie 24.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movie 25</title>
-      <link>http://localhost:1313/gridmov/movie25/</link>
+      <link>https://harlogs.github.io/gridmov/movie25/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie25/</guid>
+      <guid>https://harlogs.github.io/gridmov/movie25/</guid>
       <description>&lt;p&gt;Sample description for movie 25.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movie 3</title>
-      <link>http://localhost:1313/gridmov/movie3/</link>
+      <link>https://harlogs.github.io/gridmov/movie3/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie3/</guid>
+      <guid>https://harlogs.github.io/gridmov/movie3/</guid>
       <description>&lt;p&gt;Sample description for movie 3.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movie 4</title>
-      <link>http://localhost:1313/gridmov/movie4/</link>
+      <link>https://harlogs.github.io/gridmov/movie4/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie4/</guid>
+      <guid>https://harlogs.github.io/gridmov/movie4/</guid>
       <description>&lt;p&gt;Sample description for movie 4.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movie 5</title>
-      <link>http://localhost:1313/gridmov/movie5/</link>
+      <link>https://harlogs.github.io/gridmov/movie5/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie5/</guid>
+      <guid>https://harlogs.github.io/gridmov/movie5/</guid>
       <description>&lt;p&gt;Sample description for movie 5.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movie 6</title>
-      <link>http://localhost:1313/gridmov/movie6/</link>
+      <link>https://harlogs.github.io/gridmov/movie6/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie6/</guid>
+      <guid>https://harlogs.github.io/gridmov/movie6/</guid>
       <description>&lt;p&gt;Sample description for movie 6.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movie 7</title>
-      <link>http://localhost:1313/gridmov/movie7/</link>
+      <link>https://harlogs.github.io/gridmov/movie7/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie7/</guid>
+      <guid>https://harlogs.github.io/gridmov/movie7/</guid>
       <description>&lt;p&gt;Sample description for movie 7.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movie 8</title>
-      <link>http://localhost:1313/gridmov/movie8/</link>
+      <link>https://harlogs.github.io/gridmov/movie8/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie8/</guid>
+      <guid>https://harlogs.github.io/gridmov/movie8/</guid>
       <description>&lt;p&gt;Sample description for movie 8.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movie 9</title>
-      <link>http://localhost:1313/gridmov/movie9/</link>
+      <link>https://harlogs.github.io/gridmov/movie9/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/movie9/</guid>
+      <guid>https://harlogs.github.io/gridmov/movie9/</guid>
       <description>&lt;p&gt;Sample description for movie 9.&lt;/p&gt;</description>
     </item>
   </channel>

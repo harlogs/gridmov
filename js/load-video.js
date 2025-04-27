@@ -23,7 +23,7 @@ async function showVideo(containerId, apiUrl, videoId) {
     const data = await response.json();
     videoUrl = data.videoUrl;
 
-    console.log('💾 New video URL loaded:', videoUrl);
+    //console.log('💾 New video URL loaded:', videoUrl);
 
     /*
     // Skipping update to cache API call
