@@ -15,11 +15,14 @@ tags: ["sasural genda phool movie"]
     🎬 Watch Now
   </button>
 </div> -->
- <iframe 
+ <!-- <iframe 
     src="https://rumble.com/embed/v6qhj4r/?pub=4ldc9h" 
     frameborder="0" 
     allowfullscreen 
     style="width: 80%; height: 500px; border: 2px solid #333; border-radius: 10px;">
-  </iframe>
+  </iframe> -->
+  <!-- <iframe src="file:///Users/apple/Downloads/hugo-movie-app-v2/static/try.html" width="800" height="600"></iframe> -->
+  
+ <iframe class="rumble" width="640" height="360" src="https://rumble.com/embed/v6qi5s7/?pub=4ldc9h" frameborder="0" allowfullscreen></iframe>
 
 <!--<script src="/gridmov/js/load-video.js"></script>-->

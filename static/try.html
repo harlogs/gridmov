@@ -17,28 +17,20 @@
         </div>     
     </div>
     <video muted="" playsinline="" hidefocus="hidefocus" style="transition: transform 0.3s ease-in-out; display: block; width: 100% !important; height: 100% !important; transform: none;" preload="metadata" poster="https://1a-1791.com/video/fww1/34/s8/6/t/K/L/F/tKLFy.aQ4e.1.jpg" src="blob:https://rumble.com/e60a590c-83e8-48d9-90f8-114a822a9e87"></video> -->
-    <video id="video" controls width="600"></video>
-
-<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-<script>
-  const video = document.getElementById('video');
-  const videoSrc = 'https://1a-1791.com/video/fww1/7b/s8/2/z/F/T/F/zFTFy.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=347294208-347320555';
-
-  if (Hls.isSupported()) {
-    const hls = new Hls();
-    hls.loadSource(videoSrc);
-    hls.attachMedia(video);
-    hls.on(Hls.Events.MANIFEST_PARSED, function () {
-      video.play();
-    });
-  } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-    // Safari native support
-    video.src = videoSrc;
-    video.addEventListener('loadedmetadata', function() {
-      video.play();
-    });
-  }
-</script>
-
+ 
+<!-- <video controls width="600" height="400">
+  <source src="http://localhost:3000/proxy?url=https://1a-1791.com/video/fww1/7b/s8/2/z/F/T/F/zFTFy.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=347294208-347320555" type="application/vnd.apple.mpegurl">
+  Your browser does not support the video tag.
+</video> -->
+<!-- <iframe 
+  id="rumble-video" 
+  class="rumble" 
+  width="640" 
+  height="360" 
+  src="http://localhost:3000/rumble-proxy?url=https://rumble.com/embed/v6qgu39/?pub=4ldc9h" 
+  frameborder="0" 
+  allowfullscreen>
+</iframe> -->
 </body>
 </html>
+
