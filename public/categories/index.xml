@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Movies Manias</title>
-    <link>http://localhost:1313/gridmov/categories/</link>
+    <link>https://harlogs.github.io/gridmov/categories/</link>
     <description>Recent content in Categories on Movies Manias</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/gridmov/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://harlogs.github.io/gridmov/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Action</title>
-      <link>http://localhost:1313/gridmov/categories/action/</link>
+      <link>https://harlogs.github.io/gridmov/categories/action/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/categories/action/</guid>
+      <guid>https://harlogs.github.io/gridmov/categories/action/</guid>
       <description></description>
     </item>
     <item>
       <title>Superhero</title>
-      <link>http://localhost:1313/gridmov/categories/superhero/</link>
+      <link>https://harlogs.github.io/gridmov/categories/superhero/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gridmov/categories/superhero/</guid>
+      <guid>https://harlogs.github.io/gridmov/categories/superhero/</guid>
       <description></description>
     </item>
   </channel>
