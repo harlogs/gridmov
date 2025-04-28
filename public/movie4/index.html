@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/gridmov/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=gridmov/livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
   <title>Movies Manias</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
@@ -58,17 +58,32 @@
   </div>
 
   
-  <div class="w-full lg:w-3/5 text-white space-y-4">
-    <h1 class="text-3xl font-bold">Movie 4</h1>
+  <div class="w-full lg:w-3/5 text-white space-y-4 relative">
+    <div class="flex justify-between items-center">
+      <h1 class="text-3xl font-bold">Movie 4</h1>
+    </div>
+
     <p><strong>Year:</strong> </p>
     <p><strong>Categories:</strong>
       
     </p>
-     
-     <p><strong>Tags:</strong>
-        
-      </p>
+    
+    <p><strong>Tags:</strong>
+      
+    </p>
   </div>
+
+
+<div class="w-full lg:w-1/5 text-white flex justify-end items-start">
+  <button 
+    onclick="navigator.share ? navigator.share({ title: document.title, url: window.location.href }) : alert('Sharing not supported in this browser.');"
+    class="bg-blue-600 hover:bg-blue-700 text-white p-2 rounded-full">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3" />
+    </svg>
+  </button>
+</div>
+
 </div>
 
 
