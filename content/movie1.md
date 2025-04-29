@@ -23,6 +23,7 @@ tags: ["sasural genda phool movie"]
   </iframe> -->
   <!-- <iframe src="file:///Users/apple/Downloads/hugo-movie-app-v2/static/try.html" width="800" height="600"></iframe> -->
   
- <iframe class="rumble" width="640" height="360" src="https://rumble.com/embed/v6qi5s7/?pub=4ldc9h" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://harlogs.vidplayer.live/#ya3v" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+ab
 
 <!--<script src="/gridmov/js/load-video.js"></script>-->

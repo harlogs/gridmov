@@ -11,7 +11,9 @@
     <div class="flex justify-between items-center">
       <h1 class="text-3xl font-bold">{{ .Title }}</h1>
     </div>
-
+    {{ if .Date }}
+      <p><strong>Added on:</strong> {{ .Date.Format "January 2, 2006" }}</p>
+    {{ end }}
     <p><strong>Year:</strong> {{ .Params.year }}</p>
     <p><strong>Categories:</strong>
       {{ range .Params.categories }}
