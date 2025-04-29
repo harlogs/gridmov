@@ -6,7 +6,7 @@
 <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
   {{ range .Paginator.Pages }}
     <a href="{{ .RelPermalink }}" class="block bg-gray-900 rounded overflow-hidden hover:shadow-lg transition">
-      <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="h-[300px] w-full object-cover">
+      <img src="{{ .Params.image }}" alt="{{ .Title }}" class="h-[300px] w-full object-cover">
       <div class="bg-gray-800 text-white text-center font-bold py-2">
         {{ .Title }}
       </div>
