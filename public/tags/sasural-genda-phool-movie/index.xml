@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sasural Genda Phool Movie on Movies Manias</title>
-    <link>https://harlogs.github.io/gridmov/tags/sasural-genda-phool-movie/</link>
+    <link>http://localhost:1313/tags/sasural-genda-phool-movie/</link>
     <description>Recent content in Sasural Genda Phool Movie on Movies Manias</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://harlogs.github.io/gridmov/tags/sasural-genda-phool-movie/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/sasural-genda-phool-movie/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Movie 1</title>
-      <link>https://harlogs.github.io/gridmov/movie1/</link>
+      <link>http://localhost:1313/movie1/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://harlogs.github.io/gridmov/movie1/</guid>
-      <description>&lt;!-- &lt;div id=&#34;video1&#34; class=&#34;text-center my-6&#34;&gt;&#xA;   &lt;button &#xA;    onclick=&#34;showVideo(&#39;video1&#39;, &#39;KPrblX7al1s0XVQ/Chhaava_2025.mkv.mp4&#39;, 1111);&#34; &#xA;    class=&#34;bg-red-600 text-white text-xl px-8 py-4 rounded-lg hover:bg-red-700 transition duration-300 shadow-lg&#34;&gt;&#xA;    🎬 Watch Now&#xA;  &lt;/button&gt;&#xA;&lt;/div&gt; --&gt;&#xA; &lt;!-- &lt;iframe &#xA;    src=&#34;https://rumble.com/embed/v6qhj4r/?pub=4ldc9h&#34; &#xA;    frameborder=&#34;0&#34; &#xA;    allowfullscreen &#xA;    style=&#34;width: 80%; height: 500px; border: 2px solid #333; border-radius: 10px;&#34;&gt;&#xA;  &lt;/iframe&gt; --&gt;&#xA;  &lt;!-- &lt;iframe src=&#34;file:///Users/apple/Downloads/hugo-movie-app-v2/static/try.html&#34; width=&#34;800&#34; height=&#34;600&#34;&gt;&lt;/iframe&gt; --&gt;&#xA;  &lt;iframe src=&#34;https://harlogs.vidplayer.live/#ya3v&#34; width=&#34;100%&#34; height=&#34;100%&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;ab&#xA;&lt;!--&lt;script src=&#34;https://harlogs.github.io/gridmov/js/load-video.js&#34;&gt;&lt;/script&gt;--&gt;</description>
+      <guid>http://localhost:1313/movie1/</guid>
+      <description>&lt;!-- &lt;div id=&#34;video1&#34; class=&#34;text-center my-6&#34;&gt;&#xA;   &lt;button &#xA;    onclick=&#34;showVideo(&#39;video1&#39;, &#39;KPrblX7al1s0XVQ/Chhaava_2025.mkv.mp4&#39;, 1111);&#34; &#xA;    class=&#34;bg-red-600 text-white text-xl px-8 py-4 rounded-lg hover:bg-red-700 transition duration-300 shadow-lg&#34;&gt;&#xA;    🎬 Watch Now&#xA;  &lt;/button&gt;&#xA;&lt;/div&gt; --&gt;&#xA; &lt;!-- &lt;iframe &#xA;    src=&#34;https://rumble.com/embed/v6qhj4r/?pub=4ldc9h&#34; &#xA;    frameborder=&#34;0&#34; &#xA;    allowfullscreen &#xA;    style=&#34;width: 80%; height: 500px; border: 2px solid #333; border-radius: 10px;&#34;&gt;&#xA;  &lt;/iframe&gt; --&gt;&#xA;  &lt;!-- &lt;iframe src=&#34;file:///Users/apple/Downloads/hugo-movie-app-v2/static/try.html&#34; width=&#34;800&#34; height=&#34;600&#34;&gt;&lt;/iframe&gt; --&gt;&#xA;  &lt;iframe src=&#34;https://harlogs.vidplayer.live/#ya3v&#34; width=&#34;100%&#34; height=&#34;100%&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;ab&#xA;&lt;!--&lt;script src=&#34;http://localhost:1313/gridmov/js/load-video.js&#34;&gt;&lt;/script&gt;--&gt;</description>
     </item>
   </channel>
 </rss>
