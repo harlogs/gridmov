@@ -1,11 +1,11 @@
 ---
 id: 1745925113443
 title: "jekyl"
-image: "https://raw.githubusercontent.com/harlogs/gridmov/gh-pages/images/jekyl-1745925148051.png"
-date: undefined
+image: "https://raw.githubusercontent.com/harlogs/gridmov/gh-pages/images/jekyl-1745926275943.png"
+date: 2025-04-29T11:31:15.943Z
 language: English
 year: 2022
-categories: [undefined]
+categories: Adventure
 ---
 
 <div id="video1" class="text-center my-6">
