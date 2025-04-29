@@ -3,8 +3,7 @@ baseURL = "https://harlogs.github.io/gridmov/"
 languageCode = "en-us"
 title = "Movies Manias"
 theme = "custom"
-pagination:
-  pagerSize: 12
+paginate = 24
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
