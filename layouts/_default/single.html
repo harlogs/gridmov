@@ -9,23 +9,24 @@
   <!-- Info on the right -->
   <div class="w-full lg:w-3/5 text-white space-y-4 relative">
     <div class="flex justify-between items-center">
-      <h1 class="text-3xl font-bold">{{ .Title }}</h1>
+      <h1 class="bg-red-700 text-3xl px-2 py-1 font-bold">{{ .Title }}</h1>
     </div>
     {{ if .Date }}
-      <p><strong>Added on:</strong> {{ .Date.Format "January 2, 2006" }}</p>
+      <p><strong>Added on:</strong> <span class="bg-yellow-700 px-2 py-1 rounded-full mr-2">{{ .Date.Format "January 2, 2006" }}</span></p>
     {{ end }}
-    <p><strong>Year:</strong> {{ .Params.year }}</p>
+    <p><strong>Language:</strong> <span class="bg-blue-700 px-2 py-1 rounded-full mr-2">{{ .Params.language }}</span></p>
+    <p><strong>Year:</strong> <span class="bg-green-700 px-2 py-1 rounded-full mr-2">{{ .Params.year }}</span></p>
     <p><strong>Categories:</strong>
       {{ range .Params.categories }}
         <span class="bg-gray-700 px-2 py-1 rounded-full mr-2">{{ . }}</span>
       {{ end }}
     </p>
     <!-- Tags -->
-    <p><strong>Tags:</strong>
+    <!-- <p><strong>Tags:</strong>
       {{ range .Params.tags }}
         <span class="bg-red-700 px-2 py-1 rounded-full mr-2">{{ . }}</span>
       {{ end }}
-    </p>
+    </p> -->
   </div>
 
 <!-- Share Button (with Download Icon) -->
